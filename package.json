@@ -9,7 +9,7 @@
 		"prepare": "svelte-kit sync",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"translate": "NODE_OPTIONS=--openssl-legacy-provider node translate.js",
+		"translate": "node translate.js",
 		"createEmbedCode": "node create-embed.js"
 	},
 	"devDependencies": {
